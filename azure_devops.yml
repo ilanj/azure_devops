@@ -11,6 +11,6 @@ steps:
     addToPath: true
 
 - script: |
-    pip install requirements.txt
+    pip install -r requirements.txt
     python main.py
   displayName: 'Run Python script'
