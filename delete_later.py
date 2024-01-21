@@ -17,7 +17,7 @@ def upload_image_to_blob(storage_account_name, storage_account_key, container_na
     # Upload the image
     with open(local_image_path, "rb") as data:
         blob_client.upload_blob(data)
-    print()
+    # print()
 
 if __name__ == "__main__":
     # Replace these values with
